@@ -1,0 +1,82 @@
+.top-nav {
+  overflow: hidden;
+  background-color: #F5F5F5;
+  color: #161617;
+  top: 0;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.team-logo {
+  height: 60px;
+}
+
+.navigation-left-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-nav a {
+  height: 60px;
+  float: left;
+  text-align: center;
+  padding: 0 8px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #464648;
+}
+
+.top-nav a:hover {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.top-nav a:link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.top-nav a.nav-link:hover {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.top-nav a.nav-link {
+  float: right;
+  margin-left: 12px;
+  color: currentColor;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link.active {
+  background-color: blue;
+  color: #F5F5F5 !important;
+}
+
+.team-logo-container {
+  font-size: 30px;
+  height: 60px;
+  background-color: white;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+}
+
+.team-logo-team-text {
+  font-weight: 240;
+  padding-right: 10px;
+  color: gray;
+}
+
+.team-logo-second-container {
+  font-size: 30px;
+  font-weight: bold;
+  color: blue;
+}

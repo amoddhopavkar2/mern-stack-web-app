@@ -1,0 +1,44 @@
+@media (max-width: 991px) {
+    .wd-container { max-width: 100%; }
+}
+
+.wd-home-page-add-products-btn{
+    width: 20% !important;
+}
+
+.wd-home-gallery{
+    justify-content: flex-start;
+}
+
+.wd-search-comp {
+    margin-top: 8%;
+}
+
+.wd-mt-40 { margin-top: 20px; }
+
+.wd-mb-80{
+    margin-bottom: 80px;
+}
+
+.wd-search-filter {
+   display: flex;
+   justify-content: flex-end;
+   margin-top: 1rem;
+}
+
+.wd-search {
+   padding: 1rem 0 1rem 1rem;
+}
+
+.wd-filter {
+    padding: 1rem 0 1rem 1rem;
+}
+
+.wd-products-container {
+    background-color: #F5F5F5;
+    padding: 2rem;
+}
+
+.wd-mr-10{
+    margin-right: 10px;
+}

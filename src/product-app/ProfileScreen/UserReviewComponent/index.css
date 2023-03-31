@@ -1,0 +1,44 @@
+.wd-user-review-container {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+    border: 10px solid #F5F5F5;
+}
+
+.wd-user-review-img {
+    vertical-align: middle;
+    height: 60px;
+    width: 60px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.wd-user-review-product-title {
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.wd-user-review-header {
+    display: flex;
+}
+
+.wd-user-review-product-title-and-date-container {
+    margin-left: 10px;
+}
+
+.wd-user-review-date {
+    color: darkgray;
+}
+
+.wd-user-review-comment {
+    margin: 10px 0;
+    color: rgb(64, 63, 63);
+}
+
+
+.wd-user-review-card {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
